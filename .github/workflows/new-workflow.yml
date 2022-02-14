@@ -26,6 +26,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: clone a repository
         run: git clone https://github.com/ravi2319/task3-repoB
+      
+      - name: Getting details of all files present
+        run: |
+          ls
+          cd task3-repoB
+          pwd
 
       # Runs a set of commands using the runners shell
       - name: Pushing to that repository
