@@ -36,7 +36,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Pushing to that repository
         run: |
-          mv readme.md /task3-repoB
+          mv readme.md /home/runner/work/task3-repoA/task3-repoA/task3-repoB
           cd task3-repoB
           git add readme.md
           git push origin master
